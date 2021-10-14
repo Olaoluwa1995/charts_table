@@ -3,6 +3,8 @@ import Aos from "aos";
 import { COLORS } from "../../styles/theme";
 import BannerImage from "../../assets/banner-image.png";
 import BannerOverlay from "../../assets/banner-overlay.png";
+import CBNImage from "../../assets/cbn.png";
+import NDICImage from "../../assets/ndic.png";
 import CustomButton from "../custom-button/custom-button.component";
 import React from "react";
 
@@ -15,7 +17,7 @@ function Banner() {
       <Flex
         flexDir="row"
         bgColor={COLORS.BACKGROUND_COLOR}
-        h={{ base: "20rem", sm: "25rem", md: "30rem" }}
+        h={{ base: "22rem", sm: "25rem", md: "30rem" }}
         width="100%"
         pt="5%"
         mt="3rem"
@@ -41,6 +43,19 @@ function Banner() {
             Paymyrent offers savings, loans and investment platforms at easy and
             convenient packages.
           </Box>
+          <Flex flexDir={{ base: "column", md: "row" }} w="100%" h="1.2rem">
+            <Image
+              src={CBNImage}
+              w={{ base: "6rem", sm: "8rem", md: "auto" }}
+              mr="10%"
+              h="100%"
+            />
+            <Image
+              src={NDICImage}
+              w={{ base: "6rem", sm: "8rem", md: "auto" }}
+              h="100%"
+            />
+          </Flex>
           <CustomButton>Get Free Account</CustomButton>
         </Flex>
         <Box data-aos="slide-left" w="40%">
