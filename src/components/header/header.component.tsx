@@ -39,7 +39,7 @@ const Header: React.FC<HeaderProps> = ({}) => {
         zIndex={3}
         as="header"
         position="fixed"
-        py={{ base: "0.8rem", sm: "1rem" }}
+        py={{ base: "0.6rem", sm: "0.8rem" }}
         width="100%"
         bgColor="white"
         boxShadow={BOXSHADOW}
@@ -47,8 +47,7 @@ const Header: React.FC<HeaderProps> = ({}) => {
         <Flex
           flexDir="row"
           width="100%"
-          ml={{ base: "2%", sm: "5%" }}
-          mr={{ base: "2%", sm: "5%" }}
+          mx={{ base: "2%", sm: "5%" }}
           align="center"
           justify="space-between"
         >
@@ -134,7 +133,7 @@ const Header: React.FC<HeaderProps> = ({}) => {
           <Flex
             align="center"
             justify="flex-end"
-            w={{ base: "70%", sm: "42%" }}
+            w={{ base: "80%", sm: "42%" }}
           >
             <LinkItem
               mr={{ base: "10%", sm: "5%", md: "10%" }}
