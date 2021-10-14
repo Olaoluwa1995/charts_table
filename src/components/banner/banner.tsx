@@ -43,7 +43,12 @@ function Banner() {
             Paymyrent offers savings, loans and investment platforms at easy and
             convenient packages.
           </Box>
-          <Flex flexDir={{ base: "column", md: "row" }} w="100%" h="1.2rem">
+          <Flex
+            data-aos="slide-right"
+            flexDir={{ base: "column", md: "row" }}
+            w="100%"
+            h="1.2rem"
+          >
             <Image
               src={CBNImage}
               w={{ base: "6rem", sm: "8rem", md: "auto" }}
