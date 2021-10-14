@@ -1,5 +1,6 @@
 import "../App.css";
 import Banner from "../components/banner/banner";
+import Features from "../components/features/features";
 import Header from "../components/header/header.component";
 
 function Home() {
@@ -7,6 +8,7 @@ function Home() {
     <div className="App">
       <Header />
       <Banner />
+      <Features />
     </div>
   );
 }
