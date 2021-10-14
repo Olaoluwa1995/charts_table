@@ -2,9 +2,7 @@ import { extendTheme } from "@chakra-ui/react";
 import { Styles } from "@chakra-ui/theme-tools";
 
 export const COLORS = {
-  PRIMARY_COLOR: "#004151",
-  WHITE: "#ffffff",
-  TABLE_BUTTON_COLOR: "#808080",
+  PRIMARY_COLOR: "#F90000",
   BACKGROUND_COLOR: "whitesmoke",
 };
 
