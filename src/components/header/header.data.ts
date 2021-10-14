@@ -1,7 +1,6 @@
 import { BsBook } from "react-icons/bs";
 import { AiOutlineHome } from "react-icons/ai";
 import { GiTeacher } from "react-icons/gi";
-import { MdEvent } from "react-icons/md";
 
 type LinkProps = {
   key: number;
