@@ -3,7 +3,7 @@ import { Styles } from "@chakra-ui/theme-tools";
 
 export const COLORS = {
   PRIMARY_COLOR: "#F90000",
-  BACKGROUND_COLOR: "whitesmoke",
+  BACKGROUND_COLOR: "#E5E5E5",
 };
 
 export const BOXSHADOW = "0 4px 6px 0 lightGrey";
