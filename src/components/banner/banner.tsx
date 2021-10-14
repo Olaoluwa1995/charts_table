@@ -1,10 +1,15 @@
 import { Box, Flex, Image } from "@chakra-ui/react";
+import Aos from "aos";
 import { COLORS } from "../../styles/theme";
 import BannerImage from "../../assets/banner-image.png";
 import BannerOverlay from "../../assets/banner-overlay.png";
 import CustomButton from "../custom-button/custom-button.component";
+import React from "react";
 
 function Banner() {
+  React.useEffect(() => {
+    Aos.init({ duration: 2000, once: true });
+  }, []);
   return (
     <Flex position="relative">
       <Flex
@@ -38,7 +43,7 @@ function Banner() {
           </Box>
           <CustomButton>Get Free Account</CustomButton>
         </Flex>
-        <Box w="40%">
+        <Box data-aos="slide-left" w="40%">
           <Image src={BannerImage} w="100%" h="100%" />
         </Box>
       </Flex>
@@ -49,6 +54,8 @@ function Banner() {
         mt="28rem"
         position="absolute"
         h="10rem"
+        data-aos="flip-down"
+        data-aos-delay="1000"
       >
         <Image
           src={BannerOverlay}
