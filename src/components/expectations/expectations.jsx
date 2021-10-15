@@ -3,13 +3,14 @@ import Aos from "aos";
 import React from "react";
 import { COLORS } from "../../styles/theme";
 import SwiperCore, { Navigation, Pagination, Autoplay } from "swiper";
-import Testimony from "./testimony";
 import "swiper/swiper-bundle.css";
 
 import AppstoreImage from "../../assets/appstore.png";
 import PlaystoreImage from "../../assets/playstore.png";
 import PhonesImage from "../../assets/phones.png";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { testimonials } from "./testimonial-data";
+import Testimonial from "./testimonial";
 
 SwiperCore.use([Navigation, Pagination, Autoplay]);
 
@@ -32,10 +33,11 @@ function Expectations() {
         color={COLORS.PRIMARY_COLOR}
         fontSize="xl"
         fontWeight="semibold"
+        textTransform="uppercase"
         textAlign={{ base: "center", sm: "start" }}
         mb="5%"
       >
-        EXPECTATIONS
+        Expectation Met!!!
       </Box>
       <Flex
         flexDir={{ base: "column", sm: "row" }}
@@ -52,15 +54,15 @@ function Expectations() {
           lazy
           autoplay={{ delay: 200, disableOnInteraction: false }}
         >
-          <SwiperSlide>
-            <Testimony />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Testimony />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Testimony />
-          </SwiperSlide>
+          {testimonials.map((testimonial) => (
+            <SwiperSlide key={testimonial.key}>
+              <Testimonial
+                name={testimonial.name}
+                image={testimonial.image}
+                text={testimonial.text}
+              />
+            </SwiperSlide>
+          ))}
         </Swiper>
       </Flex>
       <Box w="100%" mt={{ base: "2rem", md: "4rem" }} pos="relative">
