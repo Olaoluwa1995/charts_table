@@ -1,9 +1,14 @@
 import { Box, Flex } from "@chakra-ui/react";
-import React from "react";
 import { BOXSHADOW } from "../../styles/theme";
-import StoryImage from "../../assets/story.png";
+import React from "react";
 
-function Testimony() {
+type Props = {
+  name: string;
+  image: string;
+  text: string;
+};
+
+const Testimonial: React.FC<Props> = ({ name, image, text }) => {
   return (
     <Flex
       bgColor="#F1EFEF"
@@ -22,24 +27,22 @@ function Testimony() {
       </Box>
       <Flex ml="4%" h="7rem" flexDir="column" justify="space-between">
         <Box fontSize={{ base: "xx-small", md: "xs" }} textAlign="start">
-          ‘’Paymyrent has helped me not to worry about money, I know my rent is
-          secured and paying other bills has been with ease’’
+          ‘’{text}’’
         </Box>
         <Flex w="100%" justify="space-between" align="center">
           <Box
-            h="2rem"
-            w="2rem"
+            h="2.5rem"
+            w="2.5rem"
             borderRadius="50%"
-            backgroundImage={`url(${StoryImage})`}
-            backgroundSize="contain"
+            backgroundImage={`url(${image})`}
+            backgroundSize="cover"
+            backgroundRepeat="no-repeat"
           />
-          <Box fontSize={{ base: "xx-small", md: "xs" }}>
-            - Mr. Olakulehin Stephen
-          </Box>
+          <Box fontSize={{ base: "xx-small", md: "xs" }}>- {name}</Box>
         </Flex>
       </Flex>
     </Flex>
   );
-}
+};
 
-export default Testimony;
+export default Testimonial;
