@@ -17,6 +17,9 @@ const Benefit: React.FC<Props> = ({ image, title, description, ...props }) => {
       bgColor="white"
       mb={{ base: "1rem", sm: "0" }}
       boxShadow={BOXSHADOW}
+      _hover={{
+        boxShadow: "0 0 10px 0 grey",
+      }}
       {...props}
     >
       <Flex align="center">
