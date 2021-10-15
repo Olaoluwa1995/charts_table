@@ -75,7 +75,7 @@ function Banner() {
         position="absolute"
         h="10rem"
         data-aos="flip-down"
-        data-aos-delay="500"
+        data-aos-delay="1000"
       >
         <Image
           src={BannerOverlay}
