@@ -18,7 +18,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     key: 2,
-    name: "Miss Bisola Okunlola",
+    name: "Miss Abisola Okunlola",
     image: BisolaImage,
     text: "I have been using Paymyrent for about 6 months now and my savings has grown drastically. Also, the interest is to die for cuz its sure meets my needs.",
   },
