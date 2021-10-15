@@ -67,7 +67,7 @@ function Expectations() {
       </Flex>
       <Box w="100%" mt={{ base: "2rem", md: "4rem" }} pos="relative">
         <Image
-          data-aos="slide-up"
+          data-aos="slide-left"
           data-aos-delay="1000"
           pos="absolute"
           src={PhonesImage}
