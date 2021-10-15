@@ -1,8 +1,13 @@
 import { Box, Flex, Image } from "@chakra-ui/react";
+import Aos from "aos";
+import React from "react";
 import StoryImage from "../../assets/story.png";
 import { COLORS } from "../../styles/theme";
 
 function Story() {
+  React.useEffect(() => {
+    Aos.init({ duration: 2000, once: true });
+  }, []);
   return (
     <Flex
       flexDir="column"
@@ -18,14 +23,31 @@ function Story() {
         color={COLORS.PRIMARY_COLOR}
         fontSize="xl"
         fontWeight="semibold"
-        textAlign="start"
+        textAlign={{ base: "center", sm: "start" }}
         mb="5%"
       >
         MY BEFORE AND AFTER STORY
       </Box>
-      <Flex w="100%" justify="space-between">
-        <Image src={StoryImage} h="100%" w="40%" />
-        <Box textAlign="justify" fontSize="md" w="50%">
+      <Flex
+        flexDir={{ base: "column", sm: "row" }}
+        w="100%"
+        justify="space-between"
+      >
+        <Image
+          data-aos="fade-right"
+          data-aos-delay="500"
+          src={StoryImage}
+          h={{ base: "20rem", sm: "100%" }}
+          w={{ base: "100%", sm: "45%" }}
+        />
+        <Box
+          data-aos="fade-left"
+          data-aos-delay="500"
+          textAlign="start"
+          mt={{ base: "5%", sm: "0" }}
+          fontSize={{ base: "sm", sm: "xs", md: "sm", lg: "md" }}
+          w={{ base: "100%", sm: "50%" }}
+        >
           Before I joined Paymyrent.ng. It was always difficult to sort my rent
           as at when due. Infact, there was a year it was war between my
           landlord and I. I deliberately close late at work because I didn’t
