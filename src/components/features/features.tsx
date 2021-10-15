@@ -15,6 +15,7 @@ function Features() {
       bgColor="white"
       minH={{ base: "20rem", sm: "25rem" }}
       width="100%"
+      mt={{ base: "3rem", sm: "0" }}
       px={{ base: "5%", sm: "10%" }}
     >
       {featuresData.map((feature: Feature) => (
