@@ -37,15 +37,15 @@ function CustomerService() {
       >
         <Image
           data-aos="fade-right"
-          data-aos-delay="1000"
+          data-aos-delay="200"
           src={CustomerServiceImage}
           h={{ base: "20rem", sm: "100%" }}
           w={{ base: "100%", sm: "45%" }}
         />
         <Flex flexDir="column" my="auto" w={{ base: "100%", sm: "50%" }}>
           <Box
-            data-aos="fade-top"
-            data-aos-delay="1000"
+            data-aos="zoom-in"
+            data-aos-delay="500"
             textAlign="start"
             mt={{ base: "5%", sm: "0" }}
             fontSize={{ base: "sm", sm: "xs", md: "sm", lg: "md" }}
@@ -55,12 +55,7 @@ function CustomerService() {
             reach out, there’ll always be a friendly person there to make your
             life easy.
           </Box>
-          <Flex
-            mt="5%"
-            align="center"
-            data-aos="fade-bottom"
-            data-aos-delay="1000"
-          >
+          <Flex data-aos="zoom-out" data-aos-delay="700" mt="5%" align="center">
             <Box fontWeight="semibold" fontSize="sm" textDecoration="underline">
               Get Help
             </Box>
