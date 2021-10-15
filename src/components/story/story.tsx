@@ -37,8 +37,8 @@ function Story() {
           data-aos="fade-right"
           data-aos-delay="500"
           src={StoryImage}
-          h={{ base: "20rem", sm: "100%" }}
-          w={{ base: "100%", sm: "45%" }}
+          h={{ base: "20rem", sm: "100%", xl: "20rem" }}
+          w={{ base: "100%", sm: "45%", lg: "40%" }}
         />
         <Box
           data-aos="fade-left"
@@ -46,7 +46,7 @@ function Story() {
           textAlign="start"
           mt={{ base: "5%", sm: "0" }}
           fontSize={{ base: "sm", sm: "xs", md: "sm", lg: "md" }}
-          w={{ base: "100%", sm: "50%" }}
+          w={{ base: "100%", sm: "50%", lg: "55%" }}
         >
           Before I joined Paymyrent.ng. It was always difficult to sort my rent
           as at when due. Infact, there was a year it was war between my
