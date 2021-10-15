@@ -19,7 +19,7 @@ function Benefits() {
       minH={{ base: "18rem", sm: "22rem" }}
       width="100%"
       pt="5%"
-      mt={{ base: "0", sm: "5rem" }}
+      mt={{ base: "2rem", sm: "7rem" }}
       px={{ base: "5%", sm: "10%" }}
     >
       <Flex
@@ -51,7 +51,7 @@ function Benefits() {
       <Flex
         w="100%"
         flexDir={{ base: "column", sm: "row" }}
-        mt={{ base: "5%", sm: "0" }}
+        mt={{ base: "0", sm: "5%" }}
         justify="center"
       >
         <Benefit
