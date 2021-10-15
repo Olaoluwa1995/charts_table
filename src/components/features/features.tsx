@@ -15,8 +15,6 @@ function Features() {
       bgColor="white"
       minH={{ base: "20rem", sm: "25rem" }}
       width="100%"
-      pt="5%"
-      mt="5rem"
       px={{ base: "5%", sm: "10%" }}
     >
       {featuresData.map((feature: Feature) => (
@@ -40,7 +38,7 @@ function Features() {
                   feature.key === 2 ? { base: "none", sm: "flex" } : "flex"
                 }
                 data-aos="zoom-in"
-                data-aos-delay="1000"
+                data-aos-delay="500"
                 pos="absolute"
                 h="100%"
                 zIndex={2}
