@@ -35,9 +35,7 @@ function Features() {
           <Flex pos="relative" h="100%" w={{ base: "100%", sm: "40%" }}>
             {feature.overlayImage && (
               <Box
-                display={
-                  feature.key === 2 ? { base: "none", sm: "flex" } : "flex"
-                }
+                display={{ base: "none", sm: "flex" }}
                 data-aos="zoom-in"
                 data-aos-delay="500"
                 pos="absolute"
@@ -47,8 +45,20 @@ function Features() {
                 <Image
                   mt={
                     feature.key === 2
-                      ? { base: "90%", sm: "75%", md: "100%", lg: "120%" }
-                      : "60%"
+                      ? {
+                          base: "90%",
+                          sm: "75%",
+                          md: "100%",
+                          lg: "120%",
+                          xl: "150%",
+                        }
+                      : {
+                          base: "100%",
+                          sm: "60%",
+                          md: "70%",
+                          lg: "80%",
+                          xl: "100%",
+                        }
                   }
                   mb="5rem"
                   src={feature.overlayImage}
