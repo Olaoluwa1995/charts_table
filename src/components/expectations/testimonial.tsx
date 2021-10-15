@@ -19,7 +19,7 @@ const Testimonial: React.FC<Props> = ({ name, image, text }) => {
       align="flex-start"
       justify="space-between"
       borderRadius="10px"
-      minH={{ base: "6rem", sm: "10rem" }}
+      minH={{ base: "4rem", sm: "10rem" }}
       boxShadow={BOXSHADOW}
     >
       <Box h="3rem" fontSize="3xl" fontWeight="bold" color="grey">
