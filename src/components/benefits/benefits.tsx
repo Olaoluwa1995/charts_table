@@ -19,7 +19,7 @@ function Benefits() {
       minH={{ base: "18rem", sm: "22rem" }}
       width="100%"
       pt="5%"
-      mt={{ base: "2rem", sm: "7rem" }}
+      mt={{ base: "2rem", md: "7rem" }}
       px={{ base: "5%", sm: "10%" }}
     >
       <Flex
