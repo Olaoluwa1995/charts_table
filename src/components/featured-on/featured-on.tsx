@@ -36,6 +36,8 @@ function AsFeaturedOn() {
           return (
             <Box
               key={featuredOn?.key}
+              data-aos="fade"
+              data-aos-delay={featuredOn?.delay}
               w={{ base: "42%", sm: "29.3%", md: "20%" }}
               mx={{ base: "4%", sm: "2%", md: "2.5%" }}
               h={{ base: "3rem", sm: "3.5rem", md: "4rem" }}
