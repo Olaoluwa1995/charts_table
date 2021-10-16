@@ -3,6 +3,7 @@ import { Route, Switch } from "react-router-dom";
 import Home from "./pages/home";
 import { customTheme } from "./styles/theme";
 import "aos/dist/aos.css";
+import ContactUs from "./pages/contact-us";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/faq" component={Home} />
-        <Route exact path="/blog" component={Home} />
+        <Route exact path="/blog" component={ContactUs} />
       </Switch>
     </ChakraProvider>
   );
