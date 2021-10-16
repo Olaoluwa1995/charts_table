@@ -1,7 +1,6 @@
 import React from "react";
 import { AiOutlineMenuUnfold } from "react-icons/ai";
 import {
-  Avatar,
   Box,
   Drawer,
   DrawerBody,
@@ -11,13 +10,11 @@ import {
   Divider,
   Flex,
   FlexboxProps,
-  HStack,
   Icon,
   Image,
   List,
   ListIcon,
   ListItem,
-  Text,
   useDisclosure,
 } from "@chakra-ui/react";
 
@@ -30,7 +27,7 @@ import CustomButton from "../custom-button/custom-button.component";
 
 type HeaderProps = FlexboxProps;
 
-const Header: React.FC<HeaderProps> = ({}) => {
+const Header: React.FC<HeaderProps> = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (

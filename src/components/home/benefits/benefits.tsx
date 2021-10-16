@@ -1,4 +1,4 @@
-import { Box, Flex, Image } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 import ExperienceImage from "../../../assets/experience.png";
 import LoanImage from "../../../assets/loan.png";
 import InterestImage from "../../../assets/interest.png";
