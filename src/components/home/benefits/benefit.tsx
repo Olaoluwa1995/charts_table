@@ -1,5 +1,5 @@
 import { Box, BoxProps, Flex, Image } from "@chakra-ui/react";
-import { BOXSHADOW } from "../../styles/theme";
+import { BOXSHADOW } from "../../../styles/theme";
 
 type Props = {
   image: string;

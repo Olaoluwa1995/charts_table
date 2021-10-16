@@ -1,11 +1,11 @@
 import { Box, Flex, Image } from "@chakra-ui/react";
 import Aos from "aos";
-import { COLORS } from "../../styles/theme";
+import { COLORS } from "../../../styles/theme";
 import BannerImage from "../../assets/banner-image.png";
 import BannerOverlay from "../../assets/banner-overlay.png";
 import CBNImage from "../../assets/cbn.png";
 import NDICImage from "../../assets/ndic.png";
-import CustomButton from "../custom-button/custom-button.component";
+import CustomButton from "../../custom-button/custom-button.component";
 import React from "react";
 
 function Banner() {

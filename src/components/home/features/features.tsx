@@ -1,5 +1,5 @@
 import { Box, Flex, Image } from "@chakra-ui/react";
-import { COLORS } from "../../styles/theme";
+import { COLORS } from "../../../styles/theme";
 import GrowthImage from "../../assets/growth.png";
 import React from "react";
 import Aos from "aos";

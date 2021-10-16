@@ -1,5 +1,5 @@
 import { Box, Flex } from "@chakra-ui/react";
-import { BOXSHADOW } from "../../styles/theme";
+import { BOXSHADOW } from "../../../styles/theme";
 import React from "react";
 
 type Props = {

@@ -1,6 +1,6 @@
 import { Box, Flex, Icon, Image } from "@chakra-ui/react";
 import React from "react";
-import { COLORS } from "../../styles/theme";
+import { COLORS } from "../../../styles/theme";
 import CustomerServiceImage from "../../assets/customer-service.png";
 import Aos from "aos";
 import { HiChevronDoubleRight } from "react-icons/hi";
