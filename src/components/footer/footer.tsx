@@ -80,7 +80,7 @@ function Footer() {
       </Flex>
       <Flex
         fontSize={{ base: "xx-small", sm: "xs" }}
-        justify="center"
+        align="center"
         textAlign="center"
         mt="3rem"
         px={{ base: "10%", md: "20%" }}
@@ -90,7 +90,7 @@ function Footer() {
         NDIC. Our investment professionals ivest savers funds in finanncial
         instruments and manage the investments to ensure optimum return.
       </Flex>
-      <Flex mt="3rem" flexDir="column" justify="center">
+      <Flex mt="3rem" flexDir="column" align="center">
         <Box fontSize="xx-small" fontWeight="semibold">
           Copyright&copy;2021 Paymyrent
         </Box>
