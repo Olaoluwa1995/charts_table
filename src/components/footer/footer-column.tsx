@@ -10,7 +10,11 @@ type Props = {
 const FooterColumn: React.FC<Props> = ({ list, title }) => {
   return (
     <Flex flexDir="column" align="flex-start">
-      <Box mb="1.5rem" fontSize="xs" fontWeight="medium">
+      <Box
+        mb="1.5rem"
+        fontSize={{ base: "xx-small", sm: "xs" }}
+        fontWeight={{ base: "semibold", sm: "medium" }}
+      >
         {title}
       </Box>
       {list.map((feature: Item) => (
