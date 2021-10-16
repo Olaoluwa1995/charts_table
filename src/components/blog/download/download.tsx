@@ -1,0 +1,68 @@
+import { Box, Flex, Image } from "@chakra-ui/react";
+import { COLORS } from "../../../styles/theme";
+import PhonesImage from "../../../assets/phones.png";
+import AppstoreImage from "../../../assets/appstore.png";
+import PlaystoreImage from "../../../assets/playstore.png";
+
+function Download() {
+  return (
+    <Box w="100%" mt={{ base: "2rem", md: "4rem" }} pos="relative">
+      <Image
+        data-aos="slide-left"
+        data-aos-delay="1000"
+        pos="absolute"
+        src={PhonesImage}
+        ml={{ base: "35%", sm: "40%", md: "45%", lg: "56%" }}
+        h={{ base: "12rem", sm: "15rem", md: "20rem", xl: "25rem" }}
+        w="auto"
+      />
+
+      <Flex
+        bgColor={COLORS.BACKGROUND_COLOR}
+        w="100%"
+        h={{ base: "8rem", sm: "10rem", md: "12rem", xl: "15rem" }}
+        pl={{ base: "5%", md: "8%" }}
+        py="2%"
+        mt={{ base: "4rem", sm: "5rem", md: "8rem", xl: "10rem" }}
+        borderRadius="15px"
+      >
+        <Flex w="50%" flexDir="column" justify="space-around">
+          <Box
+            textAlign="start"
+            fontSize={{ base: "xs", sm: "sm", md: "md", xl: "lg" }}
+            fontWeight="bold"
+          >
+            Digital bank made just for you
+          </Box>
+          <Box
+            fontSize={{
+              base: "xx-small",
+              sm: "xs",
+              md: "sm",
+              lg: "md",
+            }}
+            textAlign="start"
+          >
+            Open a new Paymyrent account from your phone or computer and follow
+            the simple on screen steps to register
+          </Box>
+          <Flex w="100%">
+            <Image
+              src={AppstoreImage}
+              w={{ base: "4rem", sm: "6rem", md: "auto" }}
+              mr="5%"
+              h={{ base: "1.2rem", sm: "1.5rem", md: "2rem", xl: "2.5rem" }}
+            />
+            <Image
+              src={PlaystoreImage}
+              w={{ base: "4rem", sm: "6rem", md: "auto" }}
+              h={{ base: "1.2rem", sm: "1.5rem", md: "2rem", xl: "2.5rem" }}
+            />
+          </Flex>
+        </Flex>
+      </Flex>
+    </Box>
+  );
+}
+
+export default Download;
