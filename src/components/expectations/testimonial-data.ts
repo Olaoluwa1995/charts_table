@@ -14,7 +14,7 @@ export const testimonials: Testimonial[] = [
     key: 1,
     name: "Mr. Stephen Olakulehin",
     image: StephenImage,
-    text: "Paymyrent has helped me not to worry about money, I know my rent is secured and paying other bills has been with ease.",
+    text: "Paymyrent has helped me not to worry about money. I know my rent is secured and paying other bills has been with ease.",
   },
   {
     key: 2,
