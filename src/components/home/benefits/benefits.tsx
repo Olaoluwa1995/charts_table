@@ -35,14 +35,14 @@ function Benefits() {
         />
         <Benefit
           data-aos="flip-right"
-          data-aos-delay="500"
+          data-aos-delay="200"
           image={LoanImage}
           title="Get Loans"
           description="Paymyrent gives you access to loan. You are entitled to a loan 20% of your total savings."
         />
         <Benefit
           data-aos="flip-right"
-          data-aos-delay="1000"
+          data-aos-delay="400"
           image={InterestImage}
           title="Interest Per Deposit"
           description="Earn up to 15% interest on your savings. We give you interest on all your savings."
@@ -56,7 +56,7 @@ function Benefits() {
       >
         <Benefit
           data-aos="flip-right"
-          data-aos-delay="500"
+          data-aos-delay="600"
           marginRight="2%"
           image={SaveImage}
           title="Quick Save"
@@ -64,7 +64,7 @@ function Benefits() {
         />
         <Benefit
           data-aos="flip-right"
-          data-aos-delay="1000"
+          data-aos-delay="800"
           image={FlexibilityImage}
           title="Flexibility"
           description="Paymyrent is flexible enough to accommodate however you wish to save. You can choose to save an amount daily, weekly or monthly."
