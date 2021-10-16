@@ -1,13 +1,13 @@
 import { Box, Flex, Image } from "@chakra-ui/react";
 import Aos from "aos";
 import React from "react";
-import { COLORS } from "../../styles/theme";
+import { COLORS } from "../../../styles/theme";
 import SwiperCore, { Navigation, Pagination, Autoplay } from "swiper";
 import "swiper/swiper-bundle.css";
 
-import AppstoreImage from "../../assets/appstore.png";
-import PlaystoreImage from "../../assets/playstore.png";
-import PhonesImage from "../../assets/phones.png";
+import AppstoreImage from "../../../assets/appstore.png";
+import PlaystoreImage from "../../../assets/playstore.png";
+import PhonesImage from "../../../assets/phones.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { testimonials } from "./testimonial-data";
 import Testimonial from "./testimonial";

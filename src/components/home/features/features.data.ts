@@ -1,10 +1,10 @@
-import { COLORS } from "./../../styles/theme";
-import GrowthImage from "../../assets/growth.png";
-import WalletImage from "../../assets/wallet.png";
-import WalletOverlayImage from "../../assets/wallet-overlay.png";
-import LoansImage from "../../assets/loans.png";
-import PaybillsImage from "../../assets/paybills.png";
-import PaybillsOverlayImage from "../../assets/paybills-overlay.png";
+import { COLORS } from "../../../styles/theme";
+import GrowthImage from "../../../assets/growth.png";
+import WalletImage from "../../../assets/wallet.png";
+import WalletOverlayImage from "../../../assets/wallet-overlay.png";
+import LoansImage from "../../../assets/loans.png";
+import PaybillsImage from "../../../assets/paybills.png";
+import PaybillsOverlayImage from "../../../assets/paybills-overlay.png";
 
 export type Feature = {
   key: number;

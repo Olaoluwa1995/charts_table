@@ -1,7 +1,7 @@
 import { Box, Flex, Image } from "@chakra-ui/react";
 import Aos from "aos";
 import React from "react";
-import StoryImage from "../../assets/story.png";
+import StoryImage from "../../../assets/story.png";
 import { COLORS } from "../../../styles/theme";
 
 function Story() {

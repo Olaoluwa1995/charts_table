@@ -1,11 +1,11 @@
-import BBCImage from "../../assets/bbc.png";
-import BellaImage from "../../assets/bella.png";
-import BusinessImage from "../../assets/business.png";
-import DisruptImage from "../../assets/disrupt.png";
-import GuardianImage from "../../assets/guardian.png";
-import LindaImage from "../../assets/linda.png";
-import PunchImage from "../../assets/punch.png";
-import TechpointImage from "../../assets/techpoint.png";
+import BBCImage from "../../../assets/bbc.png";
+import BellaImage from "../../../assets/bella.png";
+import BusinessImage from "../../../assets/business.png";
+import DisruptImage from "../../../assets/disrupt.png";
+import GuardianImage from "../../../assets/guardian.png";
+import LindaImage from "../../../assets/linda.png";
+import PunchImage from "../../../assets/punch.png";
+import TechpointImage from "../../../assets/techpoint.png";
 
 export type FeaturedOn = {
   key: number;

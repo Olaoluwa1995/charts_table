@@ -1,9 +1,9 @@
 import { Box, Flex, Image } from "@chakra-ui/react";
-import ExperienceImage from "../../assets/experience.png";
-import LoanImage from "../../assets/loan.png";
-import InterestImage from "../../assets/interest.png";
-import SaveImage from "../../assets/save.png";
-import FlexibilityImage from "../../assets/flexibility.png";
+import ExperienceImage from "../../../assets/experience.png";
+import LoanImage from "../../../assets/loan.png";
+import InterestImage from "../../../assets/interest.png";
+import SaveImage from "../../../assets/save.png";
+import FlexibilityImage from "../../../assets/flexibility.png";
 import Benefit from "./benefit";
 import React from "react";
 import Aos from "aos";

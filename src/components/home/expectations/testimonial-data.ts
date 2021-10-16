@@ -1,6 +1,6 @@
-import StephenImage from "../../assets/stephen.jpeg";
-import BisolaImage from "../../assets/bisola.jpeg";
-import JareImage from "../../assets/jare.jpeg";
+import StephenImage from "../../../assets/stephen.jpeg";
+import BisolaImage from "../../../assets/bisola.jpeg";
+import JareImage from "../../../assets/jare.jpeg";
 
 type Testimonial = {
   key: number;
