@@ -48,7 +48,7 @@ function Footer() {
           <Box mb="0.8rem" fontSize="xs" fontWeight="medium">
             Contact
           </Box>
-          <Box mb="3rem" fontSize="xx-small">
+          <Box mb="2rem" fontSize="xx-small">
             support@paymyrent.ng
           </Box>
           <Flex>
@@ -87,7 +87,7 @@ function Footer() {
       >
         Paymyrent.ng is a product of Confidence Micro Finanace Bank which is
         regulated by the Central Bank of Nigeria. Depositor’s fund is insured by
-        NDIC. Our investment professionals ivest savers funds in finanncial
+        NDIC. Our investment professionals invest savers funds in finanncial
         instruments and manage the investments to ensure optimum return.
       </Flex>
       <Flex mt="3rem" flexDir="column" align="center">
