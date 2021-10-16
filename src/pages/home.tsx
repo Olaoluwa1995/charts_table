@@ -1,4 +1,3 @@
-import "../App.css";
 import Banner from "../components/home/banner/banner";
 import Benefits from "../components/home/benefits/benefits";
 import CustomerService from "../components/home/customer-service/customer-service";
