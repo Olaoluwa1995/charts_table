@@ -11,7 +11,7 @@ import Story from "../components/home/story/story";
 
 function Home() {
   return (
-    <div className="App">
+    <>
       <Header />
       <Banner />
       <Benefits />
@@ -21,7 +21,7 @@ function Home() {
       <Expectations />
       <AsFeaturedOn />
       <Footer />
-    </div>
+    </>
   );
 }
 
