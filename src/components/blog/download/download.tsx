@@ -6,7 +6,7 @@ import PlaystoreImage from "../../../assets/playstore.png";
 
 function Download() {
   return (
-    <Box w="100%" mt={{ base: "2rem", md: "4rem" }} pos="relative">
+    <Box w="100%" mt={{ base: "2rem", md: "0rem" }} pos="relative">
       <Image
         data-aos="slide-left"
         data-aos-delay="1000"
@@ -20,10 +20,10 @@ function Download() {
       <Flex
         bgColor={COLORS.BACKGROUND_COLOR}
         w="100%"
-        h={{ base: "8rem", sm: "10rem", md: "12rem", xl: "15rem" }}
+        h={{ base: "10rem", sm: "15rem", md: "20rem", xl: "25rem" }}
         pl={{ base: "5%", md: "8%" }}
-        py="2%"
-        mt={{ base: "4rem", sm: "5rem", md: "8rem", xl: "10rem" }}
+        py="5%"
+        mt={{ base: "2rem", sm: "3rem", md: "4rem", xl: "5rem" }}
         borderRadius="15px"
       >
         <Flex w="50%" flexDir="column" justify="space-around">
