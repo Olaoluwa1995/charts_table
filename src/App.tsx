@@ -4,6 +4,7 @@ import Home from "./pages/home";
 import { customTheme } from "./styles/theme";
 import "aos/dist/aos.css";
 import ContactUs from "./pages/contact-us";
+import FAQs from "./pages/faqs";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <CSSReset />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/faq" component={Home} />
+        <Route exact path="/faq" component={FAQs} />
         <Route exact path="/blog" component={ContactUs} />
       </Switch>
     </ChakraProvider>
