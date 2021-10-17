@@ -21,14 +21,14 @@ export const contacts: Contact[] = [
   {
     key: 2,
     image: PhoneImage,
-    delay: "200",
+    delay: "100",
     title: "Phone Number",
     text: "09034800393 or \n08060051069",
   },
   {
     key: 3,
     image: EmailImage,
-    delay: "400",
+    delay: "200",
     title: "Email",
     text: "support@paymyrent.ng",
   },
