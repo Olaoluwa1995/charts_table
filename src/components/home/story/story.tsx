@@ -47,7 +47,7 @@ function Story() {
           mt={{ base: "5%", sm: "0" }}
           ml={{ base: "0", xl: "5%" }}
           fontSize={{ base: "sm", sm: "xs", md: "sm", lg: "md" }}
-          w={{ base: "100%", sm: "50%", lg: "40%" }}
+          w={{ base: "100%", sm: "50%", xl: "40%" }}
         >
           Before I joined Paymyrent.ng. It was always difficult to sort my rent
           as at when due. Infact, there was a year it was war between my
