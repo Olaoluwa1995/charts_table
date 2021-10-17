@@ -31,7 +31,7 @@ function Story() {
       <Flex
         flexDir={{ base: "column", sm: "row" }}
         w="100%"
-        justify="space-between"
+        justify={{ base: "space-between", xl: "normal" }}
       >
         <Image
           data-aos="fade-right"
@@ -45,8 +45,9 @@ function Story() {
           data-aos-delay="500"
           textAlign="start"
           mt={{ base: "5%", sm: "0" }}
+          ml={{ base: "0", xl: "5%" }}
           fontSize={{ base: "sm", sm: "xs", md: "sm", lg: "md" }}
-          w={{ base: "100%", sm: "50%", lg: "55%" }}
+          w={{ base: "100%", sm: "50%", lg: "40%" }}
         >
           Before I joined Paymyrent.ng. It was always difficult to sort my rent
           as at when due. Infact, there was a year it was war between my
