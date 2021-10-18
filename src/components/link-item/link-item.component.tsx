@@ -12,7 +12,7 @@ export interface LinkItemProps {
   hoverProps?: BoxProps;
 }
 
-export type LinkProps = LinkItemProps & BoxProps & LinkBoxProps;
+export type LinkProps = LinkItemProps & BoxProps & LinkBoxProps & any;
 
 const LinkItem: React.FC<LinkProps> = ({
   isLink = true,
