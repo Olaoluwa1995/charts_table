@@ -1,6 +1,5 @@
-import { BsBook } from "react-icons/bs";
-import { AiOutlineHome } from "react-icons/ai";
-import { GiTeacher } from "react-icons/gi";
+import { FaHome } from "react-icons/fa";
+import { MdContactPhone, MdQuestionAnswer } from "react-icons/md";
 
 type LinkProps = {
   key: number;
@@ -14,18 +13,18 @@ export const headerLinksData: LinkProps[] = [
     key: 1,
     title: "Home",
     url: "/",
-    as: AiOutlineHome,
+    as: FaHome,
   },
   {
     key: 2,
     title: "FAQ",
     url: "/faq",
-    as: GiTeacher,
+    as: MdQuestionAnswer,
   },
   {
     key: 3,
-    title: "Blog",
-    url: "/blog",
-    as: BsBook,
+    title: "Contact Us",
+    url: "/contact-us",
+    as: MdContactPhone,
   },
 ];
