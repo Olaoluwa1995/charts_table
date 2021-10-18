@@ -13,7 +13,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/faq" component={FAQs} />
-        <Route exact path="/blog" component={ContactUs} />
+        <Route exact path="/contact-us" component={ContactUs} />
       </Switch>
     </ChakraProvider>
   );
