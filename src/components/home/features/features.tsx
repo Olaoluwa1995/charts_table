@@ -54,8 +54,7 @@ function Features() {
                           base: "100%",
                           sm: "60%",
                           md: "70%",
-                          lg: "80%",
-                          xl: "100%",
+                          xl: "80%",
                         }
                   }
                   mb="5rem"
@@ -63,9 +62,9 @@ function Features() {
                   h={
                     feature.key === 2
                       ? "8rem"
-                      : { base: "6rem", sm: "4rem", md: "5rem", lg: "6rem" }
+                      : { base: "6rem", sm: "4rem", md: "5rem", lg: "7rem" }
                   }
-                  w={feature.key === 2 ? "80%" : "70%"}
+                  w={feature.key === 2 ? "80%" : "85%"}
                 />
               </Box>
             )}
@@ -96,19 +95,19 @@ function Features() {
               textTransform="uppercase"
               fontWeight="semibold"
               borderRadius="10px"
-              fontSize={{ base: "sm", md: "md" }}
+              fontSize={{ base: "xs", sm: "sm", md: "md" }}
             >
               {feature.tag}
             </Flex>
             <Box
               textAlign="start"
-              fontSize={{ base: "sm", sm: "md", lg: "lg" }}
+              fontSize={{ base: "xs", sm: "sm", md: "md", lg: "lg" }}
               fontWeight="bold"
               mt="5%"
             >
               {feature.title}
             </Box>
-            <Box textAlign="start" fontSize={{ base: "sm", md: "sm" }} mt="5%">
+            <Box textAlign="start" fontSize={{ base: "xs", md: "sm" }} mt="5%">
               {feature.description}
             </Box>
           </Flex>
