@@ -54,12 +54,22 @@ function Download() {
           <Flex w="100%">
             <Image
               src={AppstoreImage}
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href =
+                  "https://apps.apple.com/us/app/paymyrent/id1494298883";
+              }}
               w={{ base: "4rem", sm: "6rem", md: "auto" }}
               mr="5%"
               h={{ base: "1.2rem", sm: "1.5rem", md: "2rem", xl: "2.5rem" }}
             />
             <Image
               src={PlaystoreImage}
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href =
+                  "https://play.google.com/store/apps/details?id=com.paymyrentng.paymyrent";
+              }}
               w={{ base: "4rem", sm: "6rem", md: "auto" }}
               h={{ base: "1.2rem", sm: "1.5rem", md: "2rem", xl: "2.5rem" }}
             />
