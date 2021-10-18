@@ -65,9 +65,9 @@ const Header: React.FC<HeaderProps> = () => {
                     }}
                   />
                   <DrawerBody px="0" pt="3rem">
-                    <Image src={Logo} alt="logo" w="4rem" mb="1rem" ml="2rem" />
+                    <Image src={Logo} alt="logo" h="2rem" mb="2rem" ml="2rem" />
                     <List>
-                      <Divider my="0.5rem" />
+                      <Divider my="1rem" />
                       {headerLinksData.map((headerLink: any) => {
                         return (
                           <ListItem key={headerLink.key}>
@@ -87,7 +87,7 @@ const Header: React.FC<HeaderProps> = () => {
                             >
                               {headerLink.title}
                             </NavLinkItem>
-                            <Divider my="0.5rem" />
+                            <Divider my="1rem" />
                           </ListItem>
                         );
                       })}
@@ -135,7 +135,8 @@ const Header: React.FC<HeaderProps> = () => {
             <LinkItem
               mr={{ base: "10%", sm: "5%", md: "10%" }}
               isAnchor={false}
-              url="/"
+              to={{ pathname: "https://dashboard.paymyrent.ng/account/login" }}
+              target="_parent"
             >
               Sign In
             </LinkItem>
