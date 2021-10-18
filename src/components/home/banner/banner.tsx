@@ -17,7 +17,7 @@ function Banner() {
       <Flex
         flexDir="row"
         bgColor={COLORS.BACKGROUND_COLOR}
-        h={{ base: "22rem", sm: "25rem", md: "30rem" }}
+        h={{ base: "22rem", sm: "25rem", md: "30rem", xl: "35rem" }}
         width="100%"
         pt="5%"
         mt="3rem"
@@ -66,7 +66,7 @@ function Banner() {
         display={{ base: "none", md: "flex" }}
         w="100%"
         ml={{ base: "38%", md: "47%", lg: "43%", xl: "48%" }}
-        mt="28rem"
+        mt={{ base: "28rem", xl: "32rem" }}
         position="absolute"
         h="10rem"
         data-aos="flip-down"
