@@ -23,7 +23,7 @@ function CustomerService() {
         w="100%"
         textTransform="uppercase"
         color={COLORS.PRIMARY_COLOR}
-        fontSize="xl"
+        fontSize={{ base: "md", md: "xl" }}
         fontWeight="semibold"
         textAlign={{ base: "center", sm: "start" }}
         mb="5%"
@@ -48,7 +48,7 @@ function CustomerService() {
             data-aos-delay="500"
             textAlign="start"
             mt={{ base: "5%", sm: "0" }}
-            fontSize={{ base: "sm", sm: "xs", md: "sm", lg: "md" }}
+            fontSize={{ base: "xs", md: "sm", lg: "md" }}
           >
             You can chat with us on the app, slide into our DMs, tweet, leave an
             Instagram comment, send an email or call. However you choose to
