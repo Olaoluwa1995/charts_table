@@ -21,7 +21,7 @@ function Story() {
       <Box
         w="100%"
         color={COLORS.PRIMARY_COLOR}
-        fontSize="xl"
+        fontSize={{ base: "md", md: "xl" }}
         fontWeight="semibold"
         textAlign={{ base: "center", sm: "start" }}
         mb="5%"
@@ -46,7 +46,7 @@ function Story() {
           textAlign="start"
           mt={{ base: "5%", sm: "0" }}
           ml={{ base: "0", xl: "5%" }}
-          fontSize={{ base: "sm", sm: "xs", md: "sm", lg: "md" }}
+          fontSize={{ base: "xs", md: "sm", lg: "md" }}
           w={{ base: "100%", sm: "50%", xl: "40%" }}
         >
           Before I joined Paymyrent.ng. It was always difficult to sort my rent
