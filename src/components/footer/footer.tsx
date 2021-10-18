@@ -10,6 +10,7 @@ import {
   socials,
   transparency,
 } from "./footer-data";
+import NavLinkItem from "../link-item/header-links.component";
 
 function Footer() {
   return (
@@ -27,12 +28,18 @@ function Footer() {
         w="100%"
         justify="space-between"
       >
-        <Image
+        <NavLinkItem
           mb={{ base: "3rem", sm: "0" }}
           w={{ base: "30%", sm: "15%" }}
-          src={Logo}
-          h={{ base: "2.5rem", sm: "2rem", md: "2.5rem" }}
-        />
+          aria-label="homepage"
+          url="/"
+        >
+          <Image
+            w="100%"
+            src={Logo}
+            h={{ base: "2rem", sm: "1.5rem", md: "2.5rem" }}
+          />
+        </NavLinkItem>
         <Flex
           w={{ base: "100%", sm: "80%", md: "70%" }}
           justify="space-between"
@@ -56,8 +63,8 @@ function Footer() {
               <Image
                 mr="0.5rem"
                 key={social.key}
-                h="2rem"
-                w="2rem"
+                h={{ base: "1.5rem", md: "2rem" }}
+                w={{ base: "1.5rem", md: "2rem" }}
                 src={social.image}
               />
             ))}
