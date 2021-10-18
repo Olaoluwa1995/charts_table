@@ -9,7 +9,7 @@ function FAQContent() {
   const [id, setId] = React.useState(0);
   const [visible, setVisible] = React.useState(false);
   React.useEffect(() => {
-    Aos.init({ duration: 2000, once: true });
+    Aos.init({ duration: 1500, once: true });
   }, []);
   return (
     <Flex
@@ -71,21 +71,23 @@ function FAQContent() {
               </Box>
               <Flex w="10%">
                 <Icon
-                  as={faq.key === id ? MdArrowDropDown : MdArrowRight}
+                  as={
+                    faq.key === id && visible ? MdArrowDropDown : MdArrowRight
+                  }
                   w={{ base: "1rem", md: "1.5rem" }}
                   h={{ base: "1rem", md: "1.5rem" }}
                 />
               </Flex>
             </Flex>
-            {faq.key === id && (
+            {faq.key === id && visible && (
               <Box
+                dangerouslySetInnerHTML={{ __html: faq.answer }}
                 data-aos="fade-in"
-                fontWeight={{ base: "hairline", md: "light" }}
-                fontSize="xx-small"
+                color="#828282"
+                fontWeight="hairline"
+                fontSize={{ base: "xx-small", md: "xs" }}
                 w="90%"
-              >
-                {faq.answer}
-              </Box>
+              ></Box>
             )}
           </Flex>
         ))}
