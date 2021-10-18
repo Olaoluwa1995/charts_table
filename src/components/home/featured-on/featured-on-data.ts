@@ -17,41 +17,41 @@ export const featuredOns: FeaturedOn[] = [
   {
     key: 1,
     image: BusinessImage,
-    delay: "0",
+    delay: "1400",
   },
   {
     key: 2,
     image: PunchImage,
-    delay: "200",
+    delay: "1500",
   },
   {
     key: 3,
     image: LindaImage,
-    delay: "400",
+    delay: "1600",
   },
   {
     key: 4,
     image: BBCImage,
-    delay: "600",
+    delay: "1700",
   },
   {
     key: 5,
     image: DisruptImage,
-    delay: "800",
+    delay: "1800",
   },
   {
     key: 6,
     image: GuardianImage,
-    delay: "1000",
+    delay: "1900",
   },
   {
     key: 7,
     image: BellaImage,
-    delay: "1200",
+    delay: "2000",
   },
   {
     key: 8,
     image: TechpointImage,
-    delay: "1400",
+    delay: "2100",
   },
 ];
