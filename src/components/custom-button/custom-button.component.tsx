@@ -20,6 +20,11 @@ const CustomButton: React.FC<CustomButtonProps> = ({
       bgColor={COLORS.PRIMARY_COLOR}
       color="white"
       fontWeight="medium"
+      onClick={(e) => {
+        e.preventDefault();
+        window.location.href =
+          "https://dashboard.paymyrent.ng/account/register";
+      }}
       h={{ base: "2rem", md: "2.5rem" }}
       _focus={{
         border: "none",
