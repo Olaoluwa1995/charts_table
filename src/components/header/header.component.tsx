@@ -20,8 +20,8 @@ import {
 
 import { headerLinksData } from "./header.data";
 import { BOXSHADOW, COLORS } from "../../styles/theme";
-import NavLinkItem from "../link-item/header-links.component";
-import LinkItem from "../link-item/link-item.component";
+// import NavLinkItem from "../link-item/header-links.component";
+// import LinkItem from "../link-item/link-item.component";
 import Logo from "../../assets/logo.png";
 import CustomButton from "../custom-button/custom-button.component";
 
@@ -78,15 +78,9 @@ const Header: React.FC<HeaderProps> = () => {
                               mx="2rem"
                               color={COLORS.PRIMARY_COLOR}
                             />
-                            <NavLinkItem
-                              fontSize="0.8rem"
-                              color="grey"
-                              aria-label={headerLink.title}
-                              onClick={onClose}
-                              url={headerLink.url}
-                            >
-                              {headerLink.title}
-                            </NavLinkItem>
+
+                            {headerLink.title}
+
                             <Divider my="1rem" />
                           </ListItem>
                         );
@@ -97,14 +91,7 @@ const Header: React.FC<HeaderProps> = () => {
               </DrawerOverlay>
             </Drawer>
           </Box>
-          <NavLinkItem
-            display={{ base: "none", sm: "flex" }}
-            w="18%"
-            aria-label="homepage"
-            url="/"
-          >
-            <Image src={Logo} alt="logo" w={{ base: "6rem", md: "8rem" }} />
-          </NavLinkItem>
+          <Image src={Logo} alt="logo" w={{ base: "6rem", md: "8rem" }} />
           <Flex
             as="nav"
             w="40%"
@@ -117,12 +104,7 @@ const Header: React.FC<HeaderProps> = () => {
             {headerLinksData.map((headerLink: any) => {
               return (
                 <Box key={headerLink.key} mr="10%">
-                  <NavLinkItem
-                    aria-label={headerLink.title}
-                    url={headerLink.url}
-                  >
-                    {headerLink.title}
-                  </NavLinkItem>
+                  {headerLink.title}
                 </Box>
               );
             })}
@@ -132,14 +114,7 @@ const Header: React.FC<HeaderProps> = () => {
             justify="flex-end"
             w={{ base: "80%", sm: "42%" }}
           >
-            <LinkItem
-              mr={{ base: "10%", sm: "5%", md: "10%" }}
-              isAnchor={false}
-              to={{ pathname: "https://dashboard.paymyrent.ng/account/login" }}
-              target="_parent"
-            >
-              Sign In
-            </LinkItem>
+            Sign In
             <CustomButton>Get Free Account</CustomButton>
           </Flex>
         </Flex>
