@@ -4,8 +4,6 @@ import { Spinner } from "@chakra-ui/spinner";
 import { BOXSHADOW, COLORS } from "../styles/theme";
 import {
   Flex,
-  Icon,
-  Image,
   Tab,
   TabList,
   Tabs,
@@ -14,14 +12,11 @@ import {
   Text,
   Box,
 } from "@chakra-ui/react";
-import { Bar, Line, Pie } from "react-chartjs-2";
 import _ from "lodash";
-import Header from "../components/header/header.component";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import BarChart from "../components/bar-chart/bar-chart";
 import PieChart from "../components/pie-chart/pie-chart";
 import LineChart from "../components/line-chart/line-chart";
-import LogoImage from "../assets/logo.png";
 import DataTable from "../components/table/table";
 import CompositeChart from "../components/composite-chart/composite-chart";
 

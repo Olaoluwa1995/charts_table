@@ -1,7 +1,6 @@
 import { ChakraProvider, CSSReset, theme } from "@chakra-ui/react";
 import Home from "./pages/home";
 import { customTheme } from "./styles/theme";
-import "aos/dist/aos.css";
 
 function App() {
   return (
