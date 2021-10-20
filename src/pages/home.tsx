@@ -34,9 +34,9 @@ function Home() {
   const toggleSideBar = () => {
     if (sideBarDisplay === "block") setSideBarDisplay("none");
     else setSideBarDisplay("block");
-    if (pageLeftMargin === "19rem") setPageLeftMargin("0");
+    if (pageLeftMargin === "19rem") setPageLeftMargin("1rem");
     else setPageLeftMargin("19rem");
-    if (headerLeftPadding === "17rem") setHeaderLeftPadding("0");
+    if (headerLeftPadding === "17rem") setHeaderLeftPadding("1rem");
     else setHeaderLeftPadding("17rem");
   };
 
