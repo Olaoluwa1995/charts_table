@@ -194,10 +194,6 @@ function Home() {
   // 2. Create an array of data
   const tabData = [
     {
-      label: "Table",
-      children: <DataTable data={data} />,
-    },
-    {
       label: "Bar Chart",
       children: <BarChart keys={keys} sumOfSales={sumOfSales} />,
     },
@@ -210,6 +206,10 @@ function Home() {
           sumOfProfits={sumOfProfits}
         />
       ),
+    },
+    {
+      label: "Table",
+      children: <DataTable data={data} />,
     },
     {
       label: "Pie Chart",
