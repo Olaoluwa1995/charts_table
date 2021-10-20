@@ -216,7 +216,7 @@ function Home() {
       children: <PieChart keys={keys} sumOfSales={sumOfSales} />,
     },
     {
-      label: "Line Chart",
+      label: "Time Series",
       children: <LineChart keys={keys} sumOfSales={sumOfSales} />,
     },
   ];
